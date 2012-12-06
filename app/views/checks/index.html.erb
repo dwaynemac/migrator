@@ -1,0 +1,13 @@
+<ul>
+  <% @personas.each do |p| %>
+    <li><%= p.nombres if p %> <%= p.apellidos if p %></li>
+  <% end %>
+</ul>
+
+<ul>
+  <% @contacts.each do |c| %>
+    <li>
+      <%= c.first_name if c %> <%= c.last_name if c %>
+    </li>
+  <% end %>
+</ul>

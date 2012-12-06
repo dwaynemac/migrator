@@ -1,0 +1,5 @@
+development:
+  host: localhost
+  database: migrator_development
+
+production:
